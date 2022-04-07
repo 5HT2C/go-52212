@@ -12,5 +12,5 @@ var (
 
 func main() {
 	flag.Parse()
-	fmt.Printf("flag.Parsed(): %v\nos.Args: %s\npluginDir: %s\n", flag.Parsed(), os.Args, pluginDir)
+	fmt.Printf("flag.Parsed(): %v\nos.Args: %s\npluginDir: %s\n", flag.Parsed(), os.Args, *pluginDir)
 }
